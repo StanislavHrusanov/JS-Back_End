@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "Gan356 Air SM",
+        "description": "Air sm adaddadasdasdadadasdadad",
+        "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
+        "difficultyLevel": 3
+    },
+    {
+        "id": 1,
+        "name": "dada",
+        "description": "dasdasd",
+        "imageUrl": "https://cogsthebrainshop.ie/wp-content/uploads/2022/11/rubiks-cube-3x3-1.jpg",
+        "difficultyLevel": 1
+    },
+    {
+        "id": 2,
+        "name": "wwwwwwwwwwwww",
+        "description": "wwwwwwwwwwwwwww",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0646/0891/products/GAN13MaglevPhoto-2.png?v=1663471008",
+        "difficultyLevel": 4
+    },
+    {
+        "id": 4,
+        "name": "dsadsad",
+        "description": "dadasd",
+        "imageUrl": "dasdasdas",
+        "difficultyLevel": 3
+    },
+    {
+        "id": 5,
+        "name": "qwqwqwq",
+        "description": "wqwqw",
+        "imageUrl": "qwqwqw",
+        "difficultyLevel": 1
+    }
+]
