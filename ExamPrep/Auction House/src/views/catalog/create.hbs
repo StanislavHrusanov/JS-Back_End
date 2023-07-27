@@ -1,0 +1,63 @@
+<main>
+
+    <!-- In case of error, display the following div-->
+    {{#if error}}
+
+    <div class="error-box">
+        <p>{{error}}</p>
+    </div>
+    {{/if}}
+
+
+    <!-- Create Page -->
+    <section id="create-section" class="">
+
+        <h1 class="item">New Auction</h1>
+
+        <div class="item padded align-center">
+
+            <form class="layout left large" method="post" action="">
+
+                <div class="col aligned">
+                    <label>
+                        <span>Title</span>
+                        <input type="text" name="title" value="{{data.title}}"></label>
+                    <label>
+                        <span>Category</span>
+                        <select name="category">
+                            <option value="Real Estate" {{#if selectedCategory.estate}}selected{{/if}}>Real Estate
+                            </option>
+                            <option value="Vehicles" {{#if selectedCategory.vehicles}}selected{{/if}}>Vehicles</option>
+                            <option value="Furniture" {{#if selectedCategory.furniture}}selected{{/if}}>Furniture
+                            </option>
+                            <option value="Electronics" {{#if selectedCategory.electronics}}selected{{/if}}>Electronics
+                            </option>
+                            <option value="Other" {{#if selectedCategory.other}}selected{{/if}}>Other</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span>Image URL</span>
+                        <input type="text" name="imageUrl" value="{{data.imageUrl}}"></label>
+                    <label>
+                        <span>Starting price</span>
+                        <input type="number" name="price" value="{{data.price}}"></label>
+                </div>
+
+                <div class="content pad-med align-center vertical">
+                    <label>
+                        <span>Description</span>
+                        <textarea name="description">{{data.description}}</textarea>
+                    </label>
+
+                    <div class="align-center">
+                        <input class="action" type="submit" value="Publish Item">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
