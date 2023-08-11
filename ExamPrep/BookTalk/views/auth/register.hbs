@@ -1,0 +1,20 @@
+<section class="register-form-container">
+    {{#if error}}
+    <div class="errorContainer">
+        <p>{{error}}</p>
+    </div>
+    {{/if}}
+    <form method="POST">
+        <h3>Register</h3>
+        <label>Email</label>
+        <input type="email" name="email" class="box" value="{{data.email}}" id="">
+        <label>Username</label>
+        <input type="text" name="username" class="box" value="{{data.username}}" id="">
+        <label>Password</label>
+        <input type="password" name="password" class="box" value="{{data.password}}" id="">
+        <label>Confirm Password</label>
+        <input type="password" name="repass" class="box" value="{{data.repass}}" id="">
+        <input type="submit" value="Register" class="btn">
+        <p>Have an account ? <a href="/user/login">Click here</a></p>
+    </form>
+</section>
